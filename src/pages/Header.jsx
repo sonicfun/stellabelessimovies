@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './header.css';
+import NavListItem from '../components/NavListItem';
+import navListData from '../data/navListData';
 
 
 
@@ -25,20 +27,14 @@ function Header({scroll}) {
           </a>
           <ul className={active}>
           <li className="nav__item">
-            <a href="/" className="nav__link">
-              Home
+            <a href="#" className="nav__link"> <i class="bi bi-house"></i>
             </a>
           </li>
-          <li className="nav__item">
-            <a href="/" className="nav__link">
-              Movie Posters
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="/" className="nav__link">
-            About
-            </a>
-          </li>
+       
+          {navListData.map(nav => (
+            <NavListItem key ={nav._id} nav={nav} />
+          ))}
+    
         </ul>
         <div onClick={navToggle} className={icon}>
           <div className="line1"></div>

@@ -34,11 +34,9 @@ function Footer() {
 
        
                  <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                    <h4>Contact Us</h4>
-                    <p>
-                      
-                       <strong>Email:</strong> sonicfun2012@gmail.com
-                       <br />
+                    <h4>Contact</h4>
+                    <p>  
+                     <strong>Email:</strong> sonicfun2012@gmail.com
                     </p>
                  </div>
                 </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import './main.css';
-import Schedule from './Schedule';
+import MoviePoster from './MoviePoster';
 import About from './About';
 
 function Main() {
     return <main>
-        <Schedule/>
+        <MoviePoster/>
         <About/>
    
     </main>;

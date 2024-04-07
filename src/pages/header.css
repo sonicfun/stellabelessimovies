@@ -92,15 +92,20 @@ a {
     }
     .nav__menu {
       position: fixed;
-      top: 6.9vh;
+      top: 1vh;
       right: 0;
-      height: 93vh;
+      height: 100vh;
       width: 129vw;
-      background: rgb(6, 7, 8);
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom: 2px solid var(--primary);
       border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
       30;
       backdrop-filter: blur(20px);
-      border-top: 2px solid var(--primary);
+      padding: 10px 100px;
+      border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
+      30;
+      backdrop-filter: blur(20px);
+     
       border-left: 2px solid var(--primary);
       border-right: 2px solid var(--primary);
       border-bottom: 2px solid var(--primary);

@@ -11,10 +11,6 @@ function Card({movie}) {
             </p>
             <div className="content">
                 <h4>{movie.title}</h4>
-                <div className="card-icons">
-                <ion-icon name="add-outline"></ion-icon>
-                <ion-icon name="play-outline"></ion-icon>
-                </div>
             </div>
         </div>
       </div>
