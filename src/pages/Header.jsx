@@ -18,7 +18,13 @@ function Header({scroll}) {
         setIcon("nav__toggler toggle");
       } else setIcon("nav__toggler");
     };
+
+    const closeMenu = () => {
+      navToggle(false);
+     
+  };
   
+
   
       return (
       <header className={`${scroll > 100 ? 'scrolled' : undefined}`} >
@@ -27,12 +33,12 @@ function Header({scroll}) {
           </a>
           <ul className={active}>
           <li className="nav__item">
-            <a href="#" className="nav__link"> <i class="bi bi-house"></i>
+            <a href="#" className="nav__link"  onClick={closeMenu}> <i class="bi bi-house"></i>
             </a>
           </li>
        
-          {navListData.map(nav => (
-            <NavListItem key ={nav._id} nav={nav} />
+          {navListData.map(nav  => (
+            <NavListItem key={nav._id} nav={nav} onClick={closeMenu} />
           ))}
     
         </ul>
