@@ -55,11 +55,11 @@ a {
   cursor: pointer;
   transition: 0.3s;
 }
-.nav li a:hover,
-.nav li a.active {
+.nav__menu li a:hover,
+.nav__menu li a.active {
     color: var(--primary);
 }
-.nav{
+.nav__menu{
     display: flex;
    
 }
@@ -71,7 +71,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 3rem;
+    gap: 10rem;
+ 
   }
 
 .nav__toggler {
