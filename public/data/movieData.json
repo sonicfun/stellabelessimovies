@@ -1,7 +1,7 @@
 [
   {
     "_id": 1,
-    "titleImg": "../assets/movies/short-films-poster-name.png",
+    "titleImg": "../assets/movies/red-black title.png",
     "bgImg": "../assets/movies/red-black-preview.png",
     "previewImg": "../assets/movies/red-black preview.jpg",
     "video": "https://www.youtube.com/embed/r1vX7tj-4oA?si=RbFhajng1fY-h1CC",
@@ -16,8 +16,8 @@
   },
   {
     "_id": 2,
-    "titleImg": "../assets/movies/short-films-poster-name.png",
-    "bgImg": "../assets/movies/Glass Portraits big images.png",
+    "titleImg": "../assets/movies/Glass Portrait movie title.png",
+    "bgImg": "../assets/movies/Glass Portraits preview.png",
     "previewImg": "../assets/movies/glass-portraits preview.jpg",
     "video": "https://www.youtube.com/embed/v_kMquRQxqo?si=1X_CjZFwtgfa51pC",
     "title": " Glass Portraits",
@@ -31,7 +31,7 @@
   },
   {
     "_id": 3,
-    "titleImg": "../assets/movies/short-films-poster-name.png",
+    "titleImg": "../assets/movies/him them and the ghosts title.png",
     "bgImg": "../assets/movies/him them and the ghosts big Image.png",
     "previewImg": "../assets/movies/him-them-and the ghosts-preview.jpg",
     "video": "https://www.youtube.com/embed/1OrnkGmMm5g?si=yPcms22Dp4vRipFs",
@@ -46,7 +46,7 @@
   },
   {
       "_id": 4,
-      "titleImg": "../assets/movies/short-films-poster-name.png",
+      "titleImg": "../assets/movies/biographies.png",
       "bgImg": "../assets/movies/Biographies big image.png",
       "previewImg": "../assets/movies/Biographies-Preview.jpg",
       "video": "https://www.youtube.com/embed/UIBrYSv0ySM?si=yhntiO7JG-Qq4rdg",
@@ -61,7 +61,7 @@
   },
   {
       "_id": 5,
-      "titleImg": "../assets/movies/Maria-Electra-movie-title.png",
+      "titleImg": "../assets/movies/Maria-Electra title.png",
       "bgImg": "../assets/movies/Maria-Electra-preview.png",
       "previewImg": "../assets/movies/Maria-Electra-movie-poster.jpg",
       "video": "https://www.dailymotion.com/embed/video/x8vv6ze?autoplay=1",
@@ -76,7 +76,7 @@
   },
   {
       "_id": 6,
-      "titleImg": "../assets/movies/Games-In-Edem-title.png",
+      "titleImg": "../assets/movies/Games-In-Edem title.png",
       "bgImg": "../assets/movies/Games-In-Edem-preview.png",
       "previewImg": "../assets/movies/Games-In-Edem.jpeg",
       "video": "https://www.dailymotion.com/embed/video/x8vv30e?autoplay=1",
@@ -91,7 +91,7 @@
  },
  {
       "_id": 7,
-      "titleImg": "../assets/movies/Night-of-the-butterflies-movie-title.png",
+      "titleImg": "../assets/movies/Night of the butterflies movie title.png",
       "bgImg": "../assets/movies/Night-of-butterflies-preview.png",
       "previewImg": "../assets/movies/Night-of-the-butterflies-movie-poster.jpg",
       "video": "https://www.youtube.com/embed/Sz8_o-vdsHg?si=GwtaQfmZ-cBNlwRY",
@@ -121,7 +121,7 @@
   },
   {
       "_id": 9,
-      "titleImg": "../assets/movies/Final-Shooting-title.png",
+      "titleImg": "../assets/movies/final shooting.png",
       "bgImg": "../assets/movies/final-shooting-preview.png",
       "previewImg": "../assets/movies/final-shooting-poster.jpg",
       "video": "https://www.youtube.com/embed/obiQZe8HPa4?si=bXSYrt41fF8syuEm",

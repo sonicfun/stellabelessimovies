@@ -13,6 +13,8 @@
     justify-content: center;
     align-items: center;
     cursor: pointer !important;
+    cursor: url(/src/handpointing.png), pointer; 
+
 }
 
 
@@ -20,7 +22,7 @@
     font-size: 4rem;
     color: var(--primary);
     cursor: pointer;
-  
+    cursor: url(/src/handpointing.png), pointer; 
 }
 
 
@@ -35,6 +37,7 @@
     border: 10px solid #ffff;
     border-radius: 50%;
     animation: button 1s linear infinite;
+    cursor: url(/src/handpointing.png), pointer; 
 }
 
 @keyframes button {

@@ -6,6 +6,22 @@
   scroll-behavior: smooth;
  }
 
+ .App{
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    cursor: url(/src/MyCursor.png) , auto; 
+ }
+
+ a{
+     cursor: url(/src/handpointing.png), pointer; 
+ }
+
+
  :root {
   --primary: #e7be06;
  }

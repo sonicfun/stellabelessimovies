@@ -46,9 +46,7 @@ function Header({scroll}) {
               Stella Belessi
           </a>
           <ul className={active}>
-          <li className="nav__item">
-     
-          </li>
+          <li className="nav__item"></li>
        
           {navList.map(nav  => (
             <NavListItem key={nav._id} nav={nav} onClick={closeMenu} navOnClick = {handleNavOnClick} />

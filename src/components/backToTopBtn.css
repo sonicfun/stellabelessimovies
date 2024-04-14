@@ -15,11 +15,13 @@
     align-items: center;
     z-index: 1100;
     cursor: pointer;
+    cursor: url(/src/handpointing.png), pointer; 
 }
 
 .back-to-top ion-icon {
     font-size: 1.5em;
     line-height: 0;
+    cursor: url(/src/handpointing.png), pointer; 
 }
 
 .back-to-top:hover {

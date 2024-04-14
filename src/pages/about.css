@@ -12,7 +12,7 @@
     background: #191919;
     transition: 0.3s;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: pointer;; 
 }
 
 .about .filters li:hover,
@@ -34,6 +34,7 @@
     -ms-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+    cursor: url(/src/MyCursor.png) , auto
 }
 
 .stella-item:hover {

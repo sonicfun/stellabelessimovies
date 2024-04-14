@@ -9,6 +9,7 @@ header {
     padding: 30px 100px;
     transition: 0.5s;
     z-index: 10000;
+    cursor: url(/src/MyCursor.png) , auto;  
 }
 
 header.scrolled {
@@ -18,6 +19,7 @@ header.scrolled {
     30;
     backdrop-filter: blur(20px);
     padding: 10px 100px;
+    cursor: url(/src/MyCursor.png) , auto; 
 }
 
 
@@ -29,6 +31,7 @@ header.scrolled {
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: url(/src/handpointing.png), pointer; 
 }
 
 *,
@@ -42,6 +45,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  cursor: url(/src/MyCursor.png) , auto; 
 }
 li {
   list-style: none;
@@ -54,6 +58,7 @@ a {
   letter-spacing: 1px;
   cursor: pointer;
   transition: 0.3s;
+  cursor: url(/src/handpointing.png), pointer; 
 }
 .nav__menu li a:hover,
 .nav__menu li a.active {
@@ -87,26 +92,33 @@ a {
   }
   
   @media screen and (max-width: 768px) {
-    .nav__toggler {
-      display: block;
-      cursor: pointer;
-    }
-    .nav__menu {
-      position: fixed;
-      top: 1vh;
-      right: 0;
-      height: 100vh;
-      width: 129vw;
+
+    header.scrolled {
       background: rgba(0, 0, 0, 0.6);
       border-bottom: 2px solid var(--primary);
       border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
       30;
       backdrop-filter: blur(20px);
       padding: 10px 100px;
-      border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
-      30;
+  }
+  
+    .nav__toggler {
+      display: block;
+      cursor: pointer;
+    }
+    .nav__menu {
+      position: fixed;
+      top: 0vh;
+      right: 0;
+      height: 100vh;
+      width: 129vw;
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom: 2px solid var(--primary);
+      border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+      -webkit-backdrop-filter: blur(20px);
       backdrop-filter: blur(20px);
-     
+      padding: 10px 100px;
+      border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
       border-left: 2px solid var(--primary);
       border-right: 2px solid var(--primary);
       border-bottom: 2px solid var(--primary);
