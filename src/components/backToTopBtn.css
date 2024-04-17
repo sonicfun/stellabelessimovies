@@ -27,9 +27,11 @@
 .back-to-top:hover {
     background: #0000;
     color: var(--primary);
+    cursor: url(/src/handpointing.png), pointer; 
 }
 
 .back-to-top.active {
     visibility: visible;
     opacity: 1;
+    cursor: url(/src/handpointing.png) , auto; 
 }

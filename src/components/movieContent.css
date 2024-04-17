@@ -28,6 +28,7 @@
 .banner .content h4 span {
     padding: 0 10px;
     border-right: 1px solid rgba(255,255,2555,0.6);
+    cursor: url(/src/line.png), pointer;
 }
 
 .banner .content h4 span:first-child {
@@ -53,6 +54,7 @@
     line-height: 1.5em;
     color:#ffff;
     margin: 20px 0 30px;
+    cursor: url(/src/line.png), pointer; 
 }
 
 

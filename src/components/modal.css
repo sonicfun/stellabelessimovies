@@ -29,6 +29,7 @@
     cursor: pointer;
     color: #ffff;
     font-size: 1.8rem;
+    cursor: url(/src/handpointing.png) , auto; 
 }
 
 .movieModal.active {

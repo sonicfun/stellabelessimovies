@@ -51,6 +51,7 @@
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+    cursor: url(/src/line.png), pointer; 
 }
 
 .stella-info {
@@ -66,6 +67,7 @@
 .stella-description p {
     color: #3f3b3b;
     font-style: italic;
+    cursor: url(/src/line.png), pointer; 
 }
 
 

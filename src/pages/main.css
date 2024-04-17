@@ -46,6 +46,7 @@ section .section-title{
     letter-spacing: 1px;
     margin-bottom: 30px;
     text-transform: uppercase;
+    cursor: url(/src/line.png), pointer; 
 }
 
 section .section-title::after {

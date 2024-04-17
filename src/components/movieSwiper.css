@@ -12,6 +12,7 @@
     background: rgba(0,0,0,0.3);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+    cursor: url(/src/handgrab.png) , auto
 }
 
 .swiper-slide {
@@ -24,4 +25,5 @@
 .swiper-slide img {
     display: block;
     width: 100%;
+    cursor: url(/src/handgrab.png) , auto
 }

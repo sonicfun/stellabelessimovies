@@ -23,5 +23,6 @@
     text-align: center;
     margin-bottom: 20px;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    cursor: url(/src/line.png), pointer; 
 
 }
