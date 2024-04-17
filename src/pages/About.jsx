@@ -2,6 +2,9 @@ import React from 'react';
 import './about.css';
 import stellapic from '../images/stella.jpg';
 
+
+
+//This is the function of about page which contains the information about Stella Belessi, her pic and her social media
 function About() {
     return (
         <section id="about" className='about'>

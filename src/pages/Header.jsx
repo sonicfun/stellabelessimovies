@@ -5,6 +5,7 @@ import navListData from '../data/navListData';
 
 
 
+      // This is the function of the navigation system, hamburger menu and when you scroll or moving your finger. The navigational menu is following the user!
 function Header({scroll}) {
  const [navList, setNavList] = useState(navListData);
 
@@ -22,6 +23,7 @@ function Header({scroll}) {
 
     const [active, setActive] = useState("nav__menu");
     const [icon, setIcon] = useState("nav__toggler");
+    // Navigation Toggle
     const navToggle = () => {
       if (active === "nav__menu") {
         setActive("nav__menu nav__active");

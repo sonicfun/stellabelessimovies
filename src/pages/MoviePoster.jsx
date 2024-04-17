@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import './moviePoster.css';
 import Card from '../components/Card';
 
+
+ //This javascript function is used for the buttons. The first is active as it shows all the movie posters 
 function MoviePoster() {
      const filterList = [
       {
@@ -36,11 +38,14 @@ function MoviePoster() {
       },
      ];
 
+
+ //These are the javascript constants for the data, movies and filters
     const [data, setData] =useState([]);
     const [movies, setMovies]= useState([]);
     const [filters, setFilters] = useState(filterList);
 
-    
+
+     //This is a fetch to collect the movie data from the folder data and the moviedata json!
     const fetchData = () =>{
         fetch('http://localhost:3000/data/movieData.json')
         .then(res=>res.json())
@@ -56,6 +61,9 @@ function MoviePoster() {
       setMovies(data);
     }, [data]);
 
+
+
+ //This is a constant which communicates with the filters!
     const handleFilterMovies = category => {
        setFilters(
         filters.map(filter => {
@@ -75,6 +83,8 @@ function MoviePoster() {
        setMovies(data.filter(movie => movie.category === category));
     };
      
+
+     //This is both the skeleton and react scropt which shows the section and communicates with the component card!
     return (
       <section id="movieposter" className='movieposter'>
         <div className="container-fluid">

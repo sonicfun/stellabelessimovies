@@ -5,7 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
  }
-
+/* this is the root color which is used in every components/pages in react/css */
  :root {
   --primary: #e7be06;
  }

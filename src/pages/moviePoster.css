@@ -1,12 +1,15 @@
+/* This is the movie poster filter */
 .movieposter .filters {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     gap: 10px;
     margin-top: 50px;
-    cursor: url(/src/handpointing.png), pointer; 
+    cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 }
 
+
+/* This is the movie poster filter  with the li*/
 .movieposter .filters li {
     color: #ffff;
     padding: 10px 25px;
@@ -14,11 +17,14 @@
     transition: 0.3s;
     text-transform: uppercase;
     cursor: pointer;
-    cursor: url(/src/handpointing.png), pointer; 
+    cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 }
 
+
+
+/* This is the movie poster filter  with the with effect of the buttons*/
 .movieposter .filters li:hover,
 .movieposter .filters li.active {
     background: var(--primary);
-    cursor: url(/src/handpointing.png), pointer; 
+    cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 }

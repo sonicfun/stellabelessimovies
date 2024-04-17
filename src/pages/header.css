@@ -1,3 +1,4 @@
+ /* This is the header  */
 header {
     position: fixed;
     top: 0;
@@ -9,9 +10,11 @@ header {
     padding: 30px 100px;
     transition: 0.5s;
     z-index: 10000;
-    cursor: url(/src/MyCursor.png) , auto;  
+    cursor: url(/src/MyCursor.png) , auto;  /* This is my own custom cursor I made in Adobe Illustrator */
 }
 
+
+  /* This is the header scrolled whe it is activated and with css. It is pleasing in the eye! */
 header.scrolled {
     background: rgba(0, 0, 0, 0.6);
     border-bottom: 2px solid var(--primary);
@@ -19,7 +22,7 @@ header.scrolled {
     30;
     backdrop-filter: blur(20px);
     padding: 10px 100px;
-    cursor: url(/src/MyCursor.png) , auto; 
+    cursor: url(/src/MyCursor.png) , auto; /* This is my own custom cursor I made in Adobe Illustrator */
 }
 
 
@@ -31,7 +34,7 @@ header.scrolled {
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
-    cursor: url(/src/handpointing.png), pointer; 
+    cursor: url(/src/handpointing.png), pointer; /* This is my own custom cursor I made in Adobe Illustrator */
 }
 
 *,
@@ -45,7 +48,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-  cursor: url(/src/MyCursor.png) , auto; 
+  cursor: url(/src/MyCursor.png) , auto; /* This is my own custom cursor I made in Adobe Illustrator */
 }
 li {
   list-style: none;
@@ -58,8 +61,11 @@ a {
   letter-spacing: 1px;
   cursor: pointer;
   transition: 0.3s;
-  cursor: url(/src/handpointing.png), pointer; 
+  cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 }
+
+
+ /* This is the navigation menu sections with the toggle and brand*/
 .nav__menu li a:hover,
 .nav__menu li a.active {
     color: var(--primary);
@@ -90,6 +96,9 @@ a {
     background: rgb(204, 204, 204);
     transition: 0.3s ease-in;
   }
+
+
+  /* This is the media screen for mobiles */
   
   @media screen and (max-width: 768px) {
 

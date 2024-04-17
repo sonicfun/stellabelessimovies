@@ -1,4 +1,4 @@
-
+/* This is the main css where it has the color of black covering the website */
 main {
     position: relative;
     width: 100%;
@@ -7,6 +7,9 @@ main {
     background: #0000;
 }
 
+
+
+/* This is the main css where it has the color of black covering the website */
 main::before {
     position: absolute;
     content: '';
@@ -19,6 +22,8 @@ main::before {
 
 }
 
+
+/* This is the section! */
 section{
     position: relative;
     overflow: hidden;
@@ -29,6 +34,7 @@ section{
     z-index: 1100;
 }
 
+/* This is the header */
 section h1 {
     font-weight: 400;
     font-size: 4em;
@@ -38,6 +44,7 @@ section h1 {
     color: #fff;
 }
 
+/* This is the title for the "Available now"  */
 section .section-title{
     position: relative;
     color:#fff;
@@ -46,8 +53,11 @@ section .section-title{
     letter-spacing: 1px;
     margin-bottom: 30px;
     text-transform: uppercase;
-    cursor: url(/src/line.png), pointer; 
+    cursor: url(/src/line.png), pointer; /* This is my own custom line I made in Adobe Illustrator */
 }
+
+
+/* This is the the button when pressed and the color remains */
 
 section .section-title::after {
     position: absolute;
@@ -65,6 +75,8 @@ section .section-title::after {
     z-index: 1000;
 }
 
+
+/* This is the paragraph section*/
 section p{
     font-weight: 300;
     color:#0000;

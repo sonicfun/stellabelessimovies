@@ -4,6 +4,7 @@ import './footer.css';
 
 function Footer() {
 
+    //This is the footer function which is self-explainatory!
     return (
        <footer id="footer" className="footer">
         <div className="footer-top">

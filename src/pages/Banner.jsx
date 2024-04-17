@@ -7,8 +7,10 @@ import MovieSwiper from '../components/MovieSwiper';
 
 
 function Banner() {
+   //This is the constant for the movies!
         const [movies, setMovies] = useState([]);
 
+    //This is a fetch to collect the movie data from the folder data and the moviedata json!
           const fetchData = () =>{
               fetch('http://localhost:3000/data/movieData.json')
               .then(res=>res.json())
@@ -31,6 +33,9 @@ function Banner() {
              });
              setMovies(newMovies);
           };
+
+
+          //This is the banner section with HTML and React! It has the movie key, background image, the content, the release date and the play button!. It also supports the MovieSwiper component!
     return (
         <div className="banner">
             {
@@ -54,6 +59,7 @@ function Banner() {
                     </div>
                   </div>
                 ))}
+          
           
             {movies && movies.length> 0 && (<MovieSwiper slides={movies} slideChange={handleSlideChange} />)}
 

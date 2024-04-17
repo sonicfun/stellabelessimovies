@@ -1,3 +1,4 @@
+   //This is the constant for the navigation words which stores in this Javascript script. It makes the site organized instead of being hard-coded
 const navListData = [
     {
         _id: 1,

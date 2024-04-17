@@ -5,7 +5,7 @@ section .movie-card {
     background: #0000 !important;
     box-shadow: 0 0 16px rgba(255, 255, 255, 0.5); 
     transition: 0.5s;
-    cursor: url(/src/MyCursor.png) , auto; 
+    cursor: url(/src/MyCursor.png) , auto; /* This is my own custom cursor I made in Adobe Illustrator */
 }
 
 section .movie-card::before {
@@ -77,7 +77,7 @@ section .movie-card , content ion-icon {
     font-size: 2.5rem;
     transition: 0.3s;
     cursor: pointer;
-    cursor: url(/src/handpointing.png) , auto; 
+    cursor: url(/src/handpointing.png) , auto; /* This is my own custom hand I made in Adobe Illustrator */
 }
 
 

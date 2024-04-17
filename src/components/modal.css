@@ -29,7 +29,7 @@
     cursor: pointer;
     color: #ffff;
     font-size: 1.8rem;
-    cursor: url(/src/handpointing.png) , auto; 
+    cursor: url(/src/handpointing.png) , auto;  /* This is my own custom hand I made in Adobe Illustrator */
 }
 
 .movieModal.active {

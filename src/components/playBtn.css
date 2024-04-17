@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer !important;
-    cursor: url(/src/handpointing.png), pointer; 
+    cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 
 }
 
@@ -22,7 +22,7 @@
     font-size: 4rem;
     color: var(--primary);
     cursor: pointer;
-    cursor: url(/src/handpointing.png), pointer; 
+    cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 }
 
 
@@ -37,9 +37,11 @@
     border: 10px solid #ffff;
     border-radius: 50%;
     animation: button 1s linear infinite;
-    cursor: url(/src/handpointing.png), pointer; 
+    cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 }
 
+
+/* This is the animation of the playbutton effect */
 @keyframes button {
     0%,
     100% {

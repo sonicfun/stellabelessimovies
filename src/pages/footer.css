@@ -1,8 +1,9 @@
+  /* this is the css section of all the footers which is easy to read! */
 .footer {
     background: transparent;
     padding: 0 0 30px 0;
     font-size: 14px;
-    cursor: url(/src/MyCursor.png) , auto; 
+    cursor: url(/src/MyCursor.png) , auto; /* This is my own custom cursor I made in Adobe Illustrator */
 }
 
 .footer .footer-top {
@@ -29,14 +30,14 @@ margin-bottom: 15px;
    letter-spacing: 1px;
    color:#ffff;
    margin-top: 3px;
-   cursor: url(/src/handpointing.png), pointer; 
+   cursor: url(/src/handpointing.png), pointer; /* This is my own custom hand I made in Adobe Illustrator */
 }
 
 .footer .footer-top .footer-info p{
     color: #ffff;
     font-size: 14px;
     margin-top: 40px;
-    cursor: url(/src/line.png), pointer; 
+    cursor: url(/src/line.png), pointer; /* This is my own custom line I made in Adobe Illustrator */
 }
 
 .footer .footer-top .social-links a{
@@ -56,13 +57,13 @@ margin-bottom: 15px;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
-    cursor: url(/src/line.png), pointer; 
+    cursor: url(/src/line.png), pointer; /* This is my own custom line I made in Adobe Illustrator */
 }
 
 .footer .footer-top .footer-contact p{
     line-height: 26px;
     color: #fff;
-    cursor: url(/src/line.png), pointer; 
+    cursor: url(/src/line.png), pointer; /* This is my own custom line I made in Adobe Illustrator */
 }
 
 
@@ -82,7 +83,7 @@ margin-bottom: 15px;
 .footer .credits a{
     text-decoration: none;
     color:var(--primary);
-    cursor: url(/src/handpointing.png), pointer;   
+    cursor: url(/src/handpointing.png), pointer;   /* This is my own custom hand I made in Adobe Illustrator */
 }
 
 
