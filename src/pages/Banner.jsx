@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './banner.css';
 import MovieContent from '../components/MovieContent';
-import MovieDate from '../components/MovieDate';
 import PlayBtn from '../components/PlayBtn';
 import MovieSwiper from '../components/MovieSwiper';
 
@@ -52,7 +51,6 @@ function Banner() {
                              <MovieContent movie={movie}/>
                           </div>
                           <div className="col-lg-6 col-md-12">
-                              <MovieDate movie={movie}/>
                               <PlayBtn movie={movie}/>
                           </div>
                       </div>

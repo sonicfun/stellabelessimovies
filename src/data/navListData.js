@@ -10,7 +10,7 @@ const navListData = [
     {
         _id: 2,
         link: "#movieposter",
-        name: `movieposter`,
+        name: `movie posters`,
         active: false,
     },
     {

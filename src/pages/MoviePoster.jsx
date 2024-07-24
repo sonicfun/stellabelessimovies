@@ -18,22 +18,22 @@ function MoviePoster() {
       },
       {
         _id: 3,
-        name: 'Comedy',
+        name: 'Drama with documentary elements',
         active: false,
       },
       {
         _id: 4,
-        name: 'Thriller',
+        name: 'Black Comedy',
         active: false,
       },
       {
         _id: 5,
-        name: 'Horror',
+        name: 'Thriller',
         active: false,
       },
       {
         _id: 6,
-        name: 'Adventure',
+        name: 'Horror',
         active: false,
       },
      ];
@@ -84,7 +84,7 @@ function MoviePoster() {
     };
      
 
-     //This is both the skeleton and react scropt which shows the section and communicates with the component card!
+     //This is both the skeleton and react script which shows the section and communicates with the component card!
     return (
       <section id="movieposter" className='movieposter'>
         <div className="container-fluid">

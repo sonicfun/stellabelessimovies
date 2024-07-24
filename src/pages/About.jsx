@@ -21,10 +21,14 @@ function About() {
                 <div className= "stella-description">
                 <div className= "stella-info">
                     <p> Film Director</p></div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus,
-                     a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. 
-                    Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.</p> 
+                  <p>Graduate in Greek and French Literature of the University of Athens and the Department of Film direction of “STAVRAKOS Film and TV School”. 
+                    She also studied Journalism, Painting and Theatre. Postgraduate studies in television in Paris-France. 
+                    She is fluent in English, French and Italian. She was involved in martial arts for fourteen years (3 Dans), she is an active marathon runner and an active and awarded stray animal volunteer. 
+                    She has been the artistic director of the Mediterranean Festival of New filmmakers in Larissa for twenty-two years. 
+                    She has directed four short films, twenty-seven documentaries, a TV movie and the feature films "BIOGRAPHIES", "MARIA-ELECTRA", " EDEN GAMES", "THE NIGHT WITH THE BUTTERFLIES" and "FINAL SHOOTING.
+                    "Her films were awarded at various festivals, while for her short stories and scripts she received more than fifty awards in Greek and international competitions. 
+                    Her book "BASTHET’S EYES" was published in 2014 by "DIONI" editions.  
+                    Other books “THE CATS OF BERENICE” awarded 14 National and international prizes, published in 2019 by “UNIVERSE PATHWAYS” 1st edition, and in 2021 2nd edition. ‘’33” published in 2021 by “UNIVERSE PATHWAYS” ,1st edition and in 2023, 2nd edition. “OLD TESTAMENT-An anthology of speculative literature” published in 2022 by “UNIVERSE PATHWAYS”.</p> 
  
                    <ul className="stella-icon">
                     

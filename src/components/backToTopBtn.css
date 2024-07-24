@@ -40,3 +40,50 @@
     opacity: 1;
     cursor: url(/src/handpointing.png) , auto; /* This is my own custom hand I made in Adobe Illustrator */
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .back-to-top{
+        position: fixed;
+        visibility: hidden;
+        opacity: 0;
+        right: 193px;
+        bottom: 15px;
+        background: var(--primary);
+        color: #ffff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        transition: all 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1100;
+        cursor: pointer;
+        cursor: url(/src/handpointing.png), pointer; 
+    }
+    
+
+.back-to-top ion-icon {
+    font-size: 1.5em;
+    line-height: 0;
+    cursor: url(/src/handpointing.png), pointer; 
+}
+
+
+.back-to-top:hover {
+    background: #0000;
+    color: var(--primary);
+    cursor: url(/src/handpointing.png), pointer; 
+}
+
+
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+    cursor: url(/src/handpointing.png), pointer; 
+}
+    
+    } 

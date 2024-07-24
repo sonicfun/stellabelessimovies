@@ -2,26 +2,26 @@
 header {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 104%;
+    left: -11px;
+    width: 99%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 100px;
+    padding: 30px 20px;
     transition: 0.5s;
     z-index: 10000;
     cursor: url(/src/MyCursor.png) , auto;  /* This is my own custom cursor I made in Adobe Illustrator */
 }
 
 
-  /* This is the header scrolled whe it is activated and with css. It is pleasing in the eye! */
+  /* This is the header scrolled when it is activated. It is pleasing in the eye! */
 header.scrolled {
     background: rgba(0, 0, 0, 0.6);
     border-bottom: 2px solid var(--primary);
     border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
     30;
     backdrop-filter: blur(20px);
-    padding: 10px 100px;
+    padding: 10px 20px;
     cursor: url(/src/MyCursor.png) , auto; /* This is my own custom cursor I made in Adobe Illustrator */
 }
 
@@ -41,7 +41,7 @@ header.scrolled {
 *::after,
 *::before {
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 html {
   font-size: 62.5%;
@@ -102,31 +102,51 @@ a {
   
   @media screen and (max-width: 768px) {
 
+     header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      transition: 0.5s;
+      z-index: 10000;
+
+  }
+  
     header.scrolled {
       background: rgba(0, 0, 0, 0.6);
       border-bottom: 2px solid var(--primary);
       border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
       30;
       backdrop-filter: blur(20px);
-      padding: 10px 100px;
-  }
-  
+      padding: 10px 20px;
+  } 
+
+
     .nav__toggler {
       display: block;
       cursor: pointer;
+
+       position: fixed; 
+      top: 29px;
+      right: 63px;
+      z-index: 1000;  
     }
     .nav__menu {
       position: fixed;
       top: 0vh;
       right: 0;
-      height: 100vh;
-      width: 129vw;
+      height: 56vh;
+      width: 123vw;
       background: rgba(0, 0, 0, 0.6);
       border-bottom: 2px solid var(--primary);
       border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
       -webkit-backdrop-filter: blur(20px);
       backdrop-filter: blur(20px);
-      padding: 10px 100px;
+      padding: 371px  100px;
       border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
       border-left: 2px solid var(--primary);
       border-right: 2px solid var(--primary);
